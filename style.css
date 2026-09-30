@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+.photos img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid #aaa;
+    cursor: pointer;
+}
+.photos img:hover {
+    cursor: pointer;
+    border: 5px solid #080;
+    transform: scale(1.05); 
+}
+.main img {
+    width: 800px;
+    height: 800px;
+    margin: 5px;
+    border: 5px solid #aaa;
+}
